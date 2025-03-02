@@ -6,7 +6,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 import sqlite3
 import asyncio
 
-API_TOKEN = '7778677924:AAG6qSPHiS42SemxIckCvdDYFnDyvkqeNgk'
+API_TOKEN = 'TOKEN'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
 
